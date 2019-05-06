@@ -29,4 +29,4 @@ function currentLine(katzDeliLine) {
    };
 
 var deliLine = [];
-takeANumber(deliLine, 'Joe');
+console.log(takeANumber(deliLine, 'Joe'));
