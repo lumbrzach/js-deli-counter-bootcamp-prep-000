@@ -31,3 +31,5 @@ function currentLine(katzDeliLine) {
 var deliLine = [];
 console.log(takeANumber(deliLine, 'Joe'));
 console.log(takeANumber(deliLine, 'Erin'));
+
+console.log(currentLine(deliLine));
