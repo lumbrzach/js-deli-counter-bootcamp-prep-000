@@ -1,9 +1,9 @@
 var katzDeliLine = [];
-var i = 5;
+var ticketNumber = 5;
 
 function takeANumber(katzDeliLine) {
-  katzDeliLine.push(i);
-  return (`Welcome, ${i++}. You are number ${katzDeliLine.length} in line.`)
+  katzDeliLine.push(ticketNumber);
+  return (`Welcome, ${ticketNumber++}. You are number ${katzDeliLine.length} in line.`)
 };
 
 function nowServing(katzDeliLine) {
