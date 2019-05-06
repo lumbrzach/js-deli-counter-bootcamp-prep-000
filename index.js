@@ -1,8 +1,9 @@
 var katzDeliLine = [];
+var i = 5;
 
-function takeANumber(katzDeliLine, name) {
-  katzDeliLine.push(name);
-  return (`Welcome, ${name}. You are number ${katzDeliLine.length} in line.`)
+function takeANumber(katzDeliLine) {
+  katzDeliLine.push(i);
+  return (`Welcome, ${i++}. You are number ${katzDeliLine.length} in line.`)
 };
 
 function nowServing(katzDeliLine) {
@@ -30,8 +31,8 @@ function currentLine(katzDeliLine) {
    };
 
 var deliLine = [];
-console.log(takeANumber(deliLine, 'Joe'));
-console.log(takeANumber(deliLine, 'Erin'));
+console.log(takeANumber(deliLine));
+console.log(takeANumber(deliLine));
 
 console.log(currentLine(deliLine));
 console.log(currentLine(deliLine));
