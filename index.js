@@ -33,3 +33,4 @@ console.log(takeANumber(deliLine, 'Joe'));
 console.log(takeANumber(deliLine, 'Erin'));
 
 console.log(currentLine(deliLine));
+console.log(currentLine(deliLine));
