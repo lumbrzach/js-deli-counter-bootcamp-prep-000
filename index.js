@@ -35,4 +35,5 @@ console.log(takeANumber(deliLine));
 console.log(takeANumber(deliLine));
 
 console.log(currentLine(deliLine));
+console.log(nowServing(deliLine));
 console.log(currentLine(deliLine));
